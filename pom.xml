@@ -17,5 +17,14 @@
   </dependencies>
   <build>
     <finalName>JenkinsTest</finalName>
+<plugins>
+<plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <configuration>
+                <outputDirectory>C:\rita\App\apache-tomcat-9.0.8\webapps</outputDirectory>
+            </configuration>
+        </plugin>
+</plugins>
   </build>
 </project>
